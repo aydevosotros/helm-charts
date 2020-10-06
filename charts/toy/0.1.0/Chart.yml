@@ -24,7 +24,7 @@ home: https://github.com/aydevosotros/toy_app_helm
 maintainers: # (optional)
   - name: Antonio Molina
     email: antonio.molina@qustodio.com
-    
+
 #icon: A URL to an SVG or PNG image to be used as an icon (optional).
 #appVersion: The version of the app that this contains (optional). This needn't be SemVer.
 #annotations:
