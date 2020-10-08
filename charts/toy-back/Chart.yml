@@ -1,5 +1,5 @@
 apiVersion: v2
-name: toy-app
+name: toy-back-app
 description: Toy for the POC whith a typical `django & celery` infrastructure
 
 type: application
