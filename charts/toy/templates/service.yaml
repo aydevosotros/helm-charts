@@ -4,7 +4,7 @@ metadata:
   name: {{ include "toy.fullname" . }}
   labels:
     {{- include "toy.labels" . | nindent 4 }}
-  anotations:
+  annotations:
     service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
 spec:
   type: {{ .Values.service.type }}
