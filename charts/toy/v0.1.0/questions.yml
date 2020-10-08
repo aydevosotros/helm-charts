@@ -1,6 +1,5 @@
 categories:
-    - Blog
-    - CMS
+    - QUSTODIO
     questions:
     - variable: persistence.enabled
     default: "false"
