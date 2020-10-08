@@ -5,6 +5,8 @@ metadata:
   labels:
     {{- include "toy.labels" . | nindent 4 }}
 spec:
+  app: toy-nginx
+  version: 0.1.0
 {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
 {{- end }}
