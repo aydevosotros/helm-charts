@@ -1,12 +1,14 @@
 apiVersion: v2
 name: toy-app
-version: 0.1.0
 description: Toy for the POC whith a typical `django & celery` infrastructure
+
 type: application
+
 keywords:
   - POC
   - django
   - celery
+  -
 home: https://github.com/aydevosotros/toy_app_helm
 
 #dependencies: # A list of the chart requirements (optional)
@@ -29,3 +31,13 @@ maintainers: # (optional)
 #appVersion: The version of the app that this contains (optional). This needn't be SemVer.
 #annotations:
 #  example: A list of annotations keyed by name (optional).
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 0.1.0
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+appVersion: 0.1.0
