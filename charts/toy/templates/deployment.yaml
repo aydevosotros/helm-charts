@@ -3,11 +3,10 @@ kind: Deployment
 metadata:
   name: {{ include "toy.fullname" . }}
   labels:
-    {{- include "toy.labels" . | nindent 4 }}
-spec:
-  labels:
     app: toy-nginx
     version: 0.1.0
+    {{- include "toy.labels" . | nindent 4 }}
+spec:
 {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
 {{- end }}
