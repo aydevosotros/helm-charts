@@ -27,6 +27,7 @@ strategy:
     maxUnavailable: 0
 
 
+
 deployment:
   labels:
     tier: celery
